@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -12,12 +6,12 @@ import {
   View
 } from 'react-native';
 
+import HeartFloater from './heart-floater'
+
 class Hearts extends Component {
   render() {
     return (
-      <View>
-
-      </View>
+        <HeartFloater />
     );
   }
 }
